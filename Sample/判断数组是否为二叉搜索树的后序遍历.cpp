@@ -1,7 +1,6 @@
 #include<cstdio>
 #include<vector>
 using namespace std;
-
 bool fun1(vector<int>& arry,int l,int r){
     if(l>=r) return true ;
     int index=-1;

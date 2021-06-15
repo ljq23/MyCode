@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 struct node{
     int val;
     struct node* next;
@@ -10,7 +9,6 @@ struct node{
         next = nullptr;
     }
 };
-
 struct queue{
     struct node *front=nullptr,*back=nullptr,*rear;
 

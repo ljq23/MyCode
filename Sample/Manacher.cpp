@@ -49,7 +49,6 @@ int main(){
     #endif // INPUT
 //    ios::sync_with_stdio(false);
 //    cin.fill(NULL);
-
     string str = "12345678987654321";
     manacher(str);
     return 0;
